@@ -2,7 +2,7 @@
   description = "Fork of ttfautohint with Derani support";
 
   inputs = {
-    flake-utils.url = github:numtide/flake-utils;
+    flake-utils.url = "github:numtide/flake-utils";
   };
 
   outputs = { self, nixpkgs, flake-utils }:
